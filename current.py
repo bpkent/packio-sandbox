@@ -1,4 +1,4 @@
-"""Sandbox for playing with Packio."""
+"""How I would serialize and deserialize without Packio."""
 
 from datetime import datetime, timezone
 import orjson
