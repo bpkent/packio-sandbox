@@ -1,4 +1,4 @@
-"""How I would serialize and deserialize without Packio."""
+"""How I would ideally serialize and deserialize with Packio. Not runnable code."""
 
 from datetime import datetime, timezone
 import packio
