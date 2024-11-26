@@ -1,0 +1,21 @@
+[project]
+name = "packio-sandbox"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = "==3.12.5"
+dependencies = [
+    "orjson>=3.10.12",
+    "pandas>=2.2.3",
+    "pyarrow>=18.1.0",
+    "pydantic>=2.10.1",
+]
+
+[tool.uv]
+dev-dependencies = [
+    "ipykernel>=6.29.5",
+    "ipython>=8.29.0",
+]
+
+[tool.uv.sources]
+
